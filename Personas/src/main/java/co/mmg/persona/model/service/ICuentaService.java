@@ -1,6 +1,6 @@
-package co.mmg.persona.services;
+package co.mmg.persona.model.service;
 
-import co.mmg.persona.model.Cuenta;
+import co.mmg.persona.model.entity.Cuenta;
 
 import java.util.List;
 

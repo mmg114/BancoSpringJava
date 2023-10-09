@@ -1,4 +1,4 @@
-package co.mmg.persona.model;
+package co.mmg.persona.model.entity;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.persistence.Entity;

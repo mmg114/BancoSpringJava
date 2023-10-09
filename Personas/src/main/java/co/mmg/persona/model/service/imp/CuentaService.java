@@ -1,7 +1,8 @@
-package co.mmg.persona.services;
+package co.mmg.persona.model.service.imp;
 
-import co.mmg.persona.model.Cuenta;
-import co.mmg.persona.service.CuentaRepository;
+import co.mmg.persona.model.entity.Cuenta;
+import co.mmg.persona.model.repository.CuentaRepository;
+import co.mmg.persona.model.service.ICuentaService;
 import jakarta.validation.Valid;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

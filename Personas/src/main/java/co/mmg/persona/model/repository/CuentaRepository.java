@@ -1,6 +1,6 @@
-package co.mmg.persona.service;
+package co.mmg.persona.model.repository;
 
-import co.mmg.persona.model.Cuenta;
+import co.mmg.persona.model.entity.Cuenta;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

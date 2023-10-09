@@ -3,8 +3,8 @@ package repository;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import co.mmg.persona.PersonasMain;
-import co.mmg.persona.model.Cuenta;
-import co.mmg.persona.service.CuentaRepository;
+import co.mmg.persona.model.entity.Cuenta;
+import co.mmg.persona.model.repository.CuentaRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

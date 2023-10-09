@@ -1,10 +1,9 @@
-package co.mmg.persona.controller;
+package co.mmg.persona.controller.rest;
 
-import co.mmg.persona.controller.model.ApiResponseMessage;
-import co.mmg.persona.controller.model.HttpStatusMessages;
-import co.mmg.persona.model.Cuenta;
-import co.mmg.persona.services.ICuentaService;
-import jakarta.validation.Valid;
+import co.mmg.persona.model.dto.ApiResponseMessage;
+import co.mmg.persona.model.dto.HttpStatusMessages;
+import co.mmg.persona.model.entity.Cuenta;
+import co.mmg.persona.model.service.ICuentaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

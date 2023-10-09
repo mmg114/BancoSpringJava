@@ -1,4 +1,4 @@
-package co.mmg.persona.controller.model;
+package co.mmg.persona.model.dto;
 
 public enum HttpStatusMessages {
   OK(200, "OK"),

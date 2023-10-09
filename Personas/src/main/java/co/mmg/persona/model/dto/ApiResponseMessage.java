@@ -1,4 +1,4 @@
-package co.mmg.persona.controller.model;
+package co.mmg.persona.model.dto;
 
 import lombok.Builder;
 import lombok.Data;
